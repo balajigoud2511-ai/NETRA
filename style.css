@@ -4,8 +4,8 @@
     padding: 0;
 }
 body{
-    background: #08111f;
-    color: #cf0317;
+    background: #000000;
+    color: #dce8f2;
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
 }
@@ -17,7 +17,7 @@ body{
     justify-content: space-between;
     gap: 20px;
     padding: 15px 5%;
-    border-bottom:10px solid #888a8eea ;   
+    border-bottom:10px solid #3e4958 ;   
 }
 .brand{
     display: flex;
@@ -32,12 +32,12 @@ body{
     border-radius:15px;
 }
 .brand h1{
-    color: rgb(69, 69, 135);
+    color: rgb(73, 73, 205);
     letter-spacing: 3px;
     
 }
 .brand p{
-    color: #f49003;
+    color: #8f97a3;
     font-size: 13px;
     font-style: italic;
 }
@@ -60,35 +60,33 @@ nav a:hover{
 .header-right{
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 15px;
     color: rgb(127, 237, 127);
 }
 
 .online-dot{
     width: 10px;
     height: 10px;
-    background-color: #a5e990;
+    background-color: #1bfb35;
     border-radius: 50%;
 }
 
-
-#clock {
-    color:#fefefe
+#clock{
+    color: cornsilk;
     margin-left: 10px;
     font-family: monospace;
 }
 
 button{
-    background-color: #aa0401;
-    color: white;
+    background: grey;
+    color: #ffffff;
     border: 0;
-    padding: 13px 24px;
+    padding: 12px 15px;
     font-weight: bold;
-    border-radius: 30px;
+    border-radius: 10px;
     cursor: pointer;
-    
 }
 
-button:hover {
-    background: darkgreen;
+button:hover{
+    background: rgb(26, 73, 192);
 }
