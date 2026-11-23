@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #08111f;
+    color: #cf0317;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+.topbar{
+    background: #162843;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 15px 5%;
+    border-bottom:10px solid #888a8eea ;   
+}
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.brand-logo{
+    background: #373d44;
+    padding:  12px 16px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius:15px;
+}
+.brand h1{
+    color: rgb(69, 69, 135);
+    letter-spacing: 3px;
+    
+}
+.brand p{
+    color: #f49003;
+    font-size: 13px;
+    font-style: italic;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a{
+    color: #8f97a3;
+    font-size: 15px;
+    text-decoration: none;  
+}
+
+nav a:hover{
+    color: #54a5ff;
+} 
+
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgb(127, 237, 127);
+}
+
+.online-dot{
+    width: 10px;
+    height: 10px;
+    background-color: #a5e990;
+    border-radius: 50%;
+}
+
+
+#clock {
+    color:#fefefe
+    margin-left: 10px;
+    font-family: monospace;
+}
+
+button{
+    background-color: #aa0401;
+    color: white;
+    border: 0;
+    padding: 13px 24px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background: darkgreen;
+}
